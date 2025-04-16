@@ -52,6 +52,25 @@ std::vector<CelestialBody> getSolarSystem()
   );
   SolarSystem.push_back(Sun);
 
+  CelestialBody PlanetVegeta
+  {
+    "PlanetVegeta",
+    "PlanetVegeta.jpg",
+    0.3301      * pow(10, 24),
+    6.083       * pow(10, 10),
+    5.429       * pow(10, 3),
+    3.70,
+    6.9911      * pow(10, 4),
+    4.736       * pow(10, 1),
+    7.40595     * pow(10, 8),
+    8.16363     * pow(10, 8),
+    8.7969      * pow(10, 1),
+    4222.6,
+    0,
+    false
+  };
+  SolarSystem.push_back(PlanetVegeta);
+
   CelestialBody Mercury
   (
     "Mercury",
